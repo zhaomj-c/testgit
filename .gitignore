@@ -1,0 +1,34 @@
+# ignore folders
+/.metadata/
+/.settings/
+/target/
+/test-output/
+/META-INF/
+/xtempDir/
+
+
+# built application files
+*.apk
+*.ap_
+     
+# Java class files
+*.class
+*.jar
+     
+# generated files
+bin/
+gen/
+*.log
+     
+# Eclipse project files
+.classpath
+.project
+*.iml
+.idea/
+
+# regression test cases
+/src/test/java/com/glodon/apitest/client/testcases/functionalitytest/verifyregression/
+/src/test/java/com/glodon/apitest/client/generators/VerifyRegrssionGenerator.java
+/src/test/resources/apiconfig/verifyregression/
+/testdata/verifyregression/
+/testsuite/verifyregression/
